@@ -57,7 +57,7 @@ Just check out the repository and make necessary adjustments to the Makefile. It
 should compile on common 32- and 64-bit systems without problems.
 
 ## Documentation
-Doxygen - generated documentation is [available](doc/html/index.html)
+Doxygen - generated documentation is [available](http://htmlpreview.github.io/?https://github.com/ankraft/akasn1lib/blob/master/doc/html/index.html)
 .
 
 ## Limitations
