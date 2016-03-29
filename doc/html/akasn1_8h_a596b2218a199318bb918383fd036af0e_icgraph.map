@@ -1,0 +1,4 @@
+<map id="asnReadInteger" name="asnReadInteger">
+<area shape="rect" id="node2" href="$akasn1_8h.html#aba8c1ac30a9c397e3abf6c16b6b1641a" title="Read an integer value including the length from an ASN.1&#45;File. " alt="" coords="171,5,295,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#a6b95ca425c2862862e3134faef8ee43f" title="Read an integer value from an ASN.1&#45;File (with tag and length) " alt="" coords="343,5,475,32"/>
+</map>

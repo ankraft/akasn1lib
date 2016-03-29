@@ -1,0 +1,4 @@
+<map id="asnReadIA5" name="asnReadIA5">
+<area shape="rect" id="node2" href="$akasn1_8h.html#a156e17ebddb0f9284dbd5b6f768486b8" title="Read an IA5&#45;String including the length from an ASN.1&#45;File. " alt="" coords="149,5,252,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#a5c0623e844357896cde01dc20e444bd8" title="Read an IA5&#45;String from the opened ASN.1 file (with tag and length) " alt="" coords="300,5,411,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="asnReadIntegerL" name="asnReadIntegerL">
+<area shape="rect" id="node2" href="$intrd_8c.html#a666962ed1cff6cbed5125fb08bf38f4e" title="Read only a integer value w/o the tag and length. " alt="" coords="177,56,295,83"/>
+<area shape="rect" id="node5" href="$lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="178,5,294,32"/>
+<area shape="rect" id="node3" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="370,5,446,32"/>
+<area shape="rect" id="node4" href="$intdec_8c.html#a484f0c8998c26f88da51ad854b541f22" title="Decode an integer value. " alt="" coords="343,56,473,83"/>
+</map>

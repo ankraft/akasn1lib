@@ -1,0 +1,10 @@
+<map id="asnReadIA5TL" name="asnReadIA5TL">
+<area shape="rect" id="node2" href="$tagdec_8c.html#aa179105f890411d66186e982b46cc1c4" title="Decode an ASN.1 tag. " alt="" coords="164,5,276,32"/>
+<area shape="rect" id="node3" href="$ia5rd_8c.html#ab62de838dfab4ab27efcfb654468fd7b" title="Read an IA5&#45;String including the length from an ASN.1&#45;File. " alt="" coords="169,107,271,133"/>
+<area shape="rect" id="node7" href="$skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c" title="Skip a portion of the opened ASN.1 file. " alt="" coords="497,56,588,83"/>
+<area shape="rect" id="node9" href="$tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="333,208,431,235"/>
+<area shape="rect" id="node4" href="$ia5rd_8c.html#aac94bbfec51fac8520009207efd48dee" title="Read only the IA5&#45;String w/o the tag and length. " alt="" coords="334,107,430,133"/>
+<area shape="rect" id="node8" href="$lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="324,157,440,184"/>
+<area shape="rect" id="node5" href="$ia5dec_8c.html#a1608e9158a23cb6edf6d8c63ffc0c5b6" title="Decode an IA5&#45;String. " alt="" coords="488,107,597,133"/>
+<area shape="rect" id="node6" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="505,157,581,184"/>
+</map>

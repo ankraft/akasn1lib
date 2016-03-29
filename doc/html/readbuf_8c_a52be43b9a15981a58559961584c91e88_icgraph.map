@@ -1,0 +1,29 @@
+<map id="asnRead" name="asnRead">
+<area shape="rect" id="node2" href="$akasn1_8h.html#a3de50e7bd134e53f58e3e28e381e11ba" title="Check for End&#45;Of&#45;Contents in the opened ASN.1 file. " alt="" coords="150,29,233,56"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#ac2072e0c4cff3f5d683def27f94ccf4c" title="Read only the boolean value w/o the tag and length. " alt="" coords="129,181,253,208"/>
+<area shape="rect" id="node6" href="$akasn1_8h.html#a6769fdc7a8216aaf15033890f16e87c2" title="Read only the enumeration value w/o the tag and length. " alt="" coords="136,371,247,397"/>
+<area shape="rect" id="node9" href="$akasn1_8h.html#ae46937cab459dac6ca274422c8a32b23" title="Read an X.400 EXTERNAL body part from an ASN.1 file. " alt="" coords="512,965,676,992"/>
+<area shape="rect" id="node10" href="$akasn1_8h.html#acaad1cac1f6e695b82959ab4304c7f08" title="Read only the IA5&#45;String w/o the tag and length. " alt="" coords="143,80,239,107"/>
+<area shape="rect" id="node13" href="$akasn1_8h.html#a596b2218a199318bb918383fd036af0e" title="Read only a integer value w/o the tag and length. " alt="" coords="133,131,250,157"/>
+<area shape="rect" id="node16" href="$akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="133,283,249,309"/>
+<area shape="rect" id="node17" href="$akasn1_8h.html#a9bf8da8066ac95dcdf7e68aac635bcb5" title="Read an octet string from an ASN.1&#45;File (w/o the tag and length) " alt="" coords="329,232,436,259"/>
+<area shape="rect" id="node26" href="$akasn1_8h.html#a703dea70d3e354dcb0976470331b3e8d" title="Read an object identifier from an ASN.1&#45;File (w/o tag and length) " alt="" coords="143,763,239,789"/>
+<area shape="rect" id="node27" href="$akasn1_8h.html#a118091b569d8832c05c5d099e4654959" title="Read a tag from the opened ASN.1 file. " alt="" coords="142,585,241,612"/>
+<area shape="rect" id="node4" href="$akasn1_8h.html#abadad834fc8dd63c7191f7e5c9ddcbaf" title="Read a boolean value including the length from an ASN.1&#45;File. " alt="" coords="317,157,449,184"/>
+<area shape="rect" id="node5" href="$akasn1_8h.html#acdc13207a932d749c2844cc4f55bc554" title="Read a boolean value from an ASN.1&#45;File (with tag and length) " alt="" coords="524,572,664,599"/>
+<area shape="rect" id="node7" href="$akasn1_8h.html#a4eafbd9b9146a48db53ebe6b88134e1f" title="Read an enumeration value including the length from an ASN.1&#45;File. " alt="" coords="324,408,441,435"/>
+<area shape="rect" id="node8" href="$akasn1_8h.html#a105904f111b14039ffa5b2cb2731e2f1" title="Read an enumeration value from an ASN.1&#45;File (with tag and length) " alt="" coords="531,643,657,669"/>
+<area shape="rect" id="node11" href="$akasn1_8h.html#a156e17ebddb0f9284dbd5b6f768486b8" title="Read an IA5&#45;String including the length from an ASN.1&#45;File. " alt="" coords="331,5,434,32"/>
+<area shape="rect" id="node12" href="$akasn1_8h.html#a5c0623e844357896cde01dc20e444bd8" title="Read an IA5&#45;String from the opened ASN.1 file (with tag and length) " alt="" coords="539,433,649,460"/>
+<area shape="rect" id="node14" href="$akasn1_8h.html#aba8c1ac30a9c397e3abf6c16b6b1641a" title="Read an integer value including the length from an ASN.1&#45;File. " alt="" coords="321,56,445,83"/>
+<area shape="rect" id="node15" href="$akasn1_8h.html#a6b95ca425c2862862e3134faef8ee43f" title="Read an integer value from an ASN.1&#45;File (with tag and length) " alt="" coords="528,496,660,523"/>
+<area shape="rect" id="node18" href="$akasn1_8h.html#a335922330135dc26cfb89be09b9fb598" title="Read an octet string from an ASN.1&#45;File (with the length) " alt="" coords="537,232,651,259"/>
+<area shape="rect" id="node20" href="$akasn1_8h.html#ab7cac4abdb6158dbeb2a9d4c104b2337" title="Read an octet string from an ASN.1&#45;File (w/o the tag and the length) and write it to another file..." alt="" coords="318,357,447,384"/>
+<area shape="rect" id="node21" href="$akasn1_8h.html#a89d301f52b348bc2778f7eab1b088a6f" title="Read an octet string from an ASN.1&#45;File (with the tag) and write it to another file. " alt="" coords="526,357,662,384"/>
+<area shape="rect" id="node23" href="$akasn1_8h.html#a40494ed2c63337c3b4fe663a3393c65b" title="Read an object identifier from an ASN.1&#45;File (with length) " alt="" coords="331,763,435,789"/>
+<area shape="rect" id="node25" href="$akasn1_8h.html#a3348621be4fb09eae2669bdb973fc484" title="Read a tag and a length from the opened ASN.1 file. " alt="" coords="301,509,464,536"/>
+<area shape="rect" id="node19" href="$akasn1_8h.html#a1842ae2a9eeec50dffa7319a47bb3c1b" title="Read an octet string from an ASN.1&#45;File (with tag and length) " alt="" coords="735,472,857,499"/>
+<area shape="rect" id="node22" href="$akasn1_8h.html#a26487f9911005e98c6149a418500daee" title="Read an octet string from an ASN.1&#45;File and write it to another file. " alt="" coords="724,599,868,625"/>
+<area shape="rect" id="node24" href="$akasn1_8h.html#a9e8e820b97583d4db1c6e6e859d7968e" title="Read an object identifier from an ASN.1&#45;File (with tag and length) " alt="" coords="538,813,650,840"/>
+<area shape="rect" id="node28" href="$akasn1_8h.html#a1c1034f6ad30818e558b9ec6b118b245" title="Read a Null value with tag and length. " alt="" coords="326,813,439,840"/>
+</map>

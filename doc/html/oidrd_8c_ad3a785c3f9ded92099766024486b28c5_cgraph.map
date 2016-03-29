@@ -1,0 +1,10 @@
+<map id="asnReadOidTL" name="asnReadOidTL">
+<area shape="rect" id="node2" href="$tagdec_8c.html#aa179105f890411d66186e982b46cc1c4" title="Decode an ASN.1 tag. " alt="" coords="165,5,277,32"/>
+<area shape="rect" id="node3" href="$oidrd_8c.html#a65994551b544bdc137992ea23fba5b94" title="Read an object identifier from an ASN.1&#45;File (with length) " alt="" coords="169,56,273,83"/>
+<area shape="rect" id="node8" href="$tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="334,107,433,133"/>
+<area shape="rect" id="node9" href="$skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c" title="Skip a portion of the opened ASN.1 file. " alt="" coords="176,157,267,184"/>
+<area shape="rect" id="node4" href="$lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="325,56,441,83"/>
+<area shape="rect" id="node6" href="$oidrd_8c.html#a8782ace8b8afb2cba6a4151f6705f6f1" title="Read an object identifier from an ASN.1&#45;File (w/o tag and length) " alt="" coords="335,5,431,32"/>
+<area shape="rect" id="node5" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="507,56,583,83"/>
+<area shape="rect" id="node7" href="$oiddec_8c.html#aa11673257c2bf59227bff82e12b73622" title="Decode an object identifier from a buffer into a string. " alt="" coords="489,5,600,32"/>
+</map>

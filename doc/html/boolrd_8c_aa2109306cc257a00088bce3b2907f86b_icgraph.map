@@ -1,0 +1,4 @@
+<map id="asnReadBoolean" name="asnReadBoolean">
+<area shape="rect" id="node2" href="$akasn1_8h.html#abadad834fc8dd63c7191f7e5c9ddcbaf" title="Read a boolean value including the length from an ASN.1&#45;File. " alt="" coords="177,5,309,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#acdc13207a932d749c2844cc4f55bc554" title="Read a boolean value from an ASN.1&#45;File (with tag and length) " alt="" coords="357,5,497,32"/>
+</map>

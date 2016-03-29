@@ -1,0 +1,4 @@
+<map id="asnReadBoolean" name="asnReadBoolean">
+<area shape="rect" id="node2" href="$booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. " alt="" coords="177,5,316,32"/>
+<area shape="rect" id="node3" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="209,56,285,83"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="asnIsEOC" name="asnIsEOC">
+<area shape="rect" id="node2" href="$asnfseek_8c.html#a55a7f66162ac55f0417f5c7c31ea7351" title="Seek to a position pos in the open ASN.1&#45;file. " alt="" coords="136,5,216,32"/>
+<area shape="rect" id="node3" href="$asnftell_8c.html#a715e8f433e4236e21f2a7e27298f7f75" title="Get position in the opened ASN.1&#45;File. " alt="" coords="141,56,211,83"/>
+<area shape="rect" id="node4" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="138,107,214,133"/>
+</map>
