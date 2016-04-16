@@ -5,9 +5,12 @@ OBJDIR = obj
 BINDIR = bin
 DOCDIR = doc
 TESTDIR = test
-DEPS   :=  akasn1.h
+INSTALLROOT = /usr/local
+
+DEPS =  $(SRCDIR)/akasn1.h
 
 OUT    = $(BINDIR)/libakasn1lib.a
+
 
 C_FILES   := $(wildcard $(SRCDIR)/*.c)
 OBJ_FILES := $(addprefix $(OBJDIR)/,$(notdir $(C_FILES:.c=.o)))
@@ -15,7 +18,7 @@ OBJ_FILES := $(addprefix $(OBJDIR)/,$(notdir $(C_FILES:.c=.o)))
 # C++ compiler, flags
 CC = gcc
 CFLAGS = -g -O2 -Wall
-INCLUDES = -I. -I../include/ -I/usr/local/include
+INCLUDES = -I./src  -I/usr/local/include
  
 # Linker paths, flags
 LIBS = -L../ -L/usr/local/lib -lm
@@ -27,7 +30,7 @@ RMDIR   = rmdir
 DOCGEN	= doxygen Doxyfile
  
 .SUFFIXES: .c
-.PHONY: clean directories
+.PHONY: clean directories install
  
 
 default: directories $(OUT) documentation
@@ -40,6 +43,12 @@ $(OBJ_FILES): $(OBJDIR)/%.o: $(SRCDIR)/%.c $(DEPS)
  
 $(OUT): $(OBJ_FILES)
 	ar rcs $(OUT) $(OBJ_FILES)
+
+# Install
+
+install: $(OUT)
+	cp $(OUT) $(INSTALLROOT)/lib
+	cp $(DEPS) $(INSTALLROOT)/include
 
 # Clean
 
