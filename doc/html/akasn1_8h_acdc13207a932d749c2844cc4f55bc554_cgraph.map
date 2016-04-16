@@ -1,10 +1,10 @@
 <map id="asnReadBooleanTL" name="asnReadBooleanTL">
-<area shape="rect" id="node2" href="$tagdec_8c.html#aa179105f890411d66186e982b46cc1c4" title="Decode an ASN.1 tag. " alt="" coords="203,5,315,32"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#a5e363efcbbcc9e4a9a274b001f2647d5" title="Decode an ASN.1 tag. " alt="" coords="203,5,315,32"/>
 <area shape="rect" id="node3" href="$boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1&#45;File. " alt="" coords="193,56,325,83"/>
-<area shape="rect" id="node8" href="$tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="386,107,485,133"/>
-<area shape="rect" id="node9" href="$skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c" title="Skip a portion of the opened ASN.1 file. " alt="" coords="214,157,305,184"/>
-<area shape="rect" id="node4" href="$lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="377,56,493,83"/>
+<area shape="rect" id="node8" href="$akasn1_8h.html#a118091b569d8832c05c5d099e4654959" title="Read a tag from the opened ASN.1 file. " alt="" coords="386,107,485,133"/>
+<area shape="rect" id="node9" href="$akasn1_8h.html#a430e3ead8ba5b62f5e65d578e002c8e8" title="Skip a portion of the opened ASN.1 file. " alt="" coords="214,157,305,184"/>
+<area shape="rect" id="node4" href="$akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="377,56,493,83"/>
 <area shape="rect" id="node6" href="$boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. " alt="" coords="373,5,497,32"/>
-<area shape="rect" id="node5" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="577,56,653,83"/>
-<area shape="rect" id="node7" href="$booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. " alt="" coords="545,5,684,32"/>
+<area shape="rect" id="node5" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="577,56,653,83"/>
+<area shape="rect" id="node7" href="$akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. " alt="" coords="545,5,684,32"/>
 </map>

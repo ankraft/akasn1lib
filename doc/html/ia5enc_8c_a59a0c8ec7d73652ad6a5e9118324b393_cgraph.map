@@ -1,4 +1,4 @@
 <map id="asnEncodeIA5" name="asnEncodeIA5">
-<area shape="rect" id="node2" href="$lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c" title="Encode a &quot;length&quot; field. " alt="" coords="163,5,292,32"/>
-<area shape="rect" id="node3" href="$tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7" title="Encode an ASN.1 tag. " alt="" coords="171,56,283,83"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef" title="Encode a &quot;length&quot; field. " alt="" coords="163,5,292,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#ad383d90701a1490387350b9930cc1397" title="Encode an ASN.1 tag. " alt="" coords="171,56,283,83"/>
 </map>

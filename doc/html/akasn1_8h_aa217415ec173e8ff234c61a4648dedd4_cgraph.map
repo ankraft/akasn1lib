@@ -1,5 +1,5 @@
 <map id="asnWriteInteger" name="asnWriteInteger">
-<area shape="rect" id="node2" href="$intenc_8c.html#a0af83cef49469cf1c833f2f9f4fb1c9e" title="Encode an integer value with tag and length. " alt="" coords="169,5,300,32"/>
-<area shape="rect" id="node4" href="$writebuf_8c.html#ad4e5748ca9cf4b3517ad197dfa19818a" title="Write a buffer to the opened ASN.1 file. " alt="" coords="197,56,272,83"/>
-<area shape="rect" id="node3" href="$tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7" title="Encode an ASN.1 tag. " alt="" coords="348,5,460,32"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#a39bf457b9d314ee6c58d0cc70a9f32f2" title="Encode an integer value with tag and length. " alt="" coords="169,5,300,32"/>
+<area shape="rect" id="node4" href="$akasn1_8h.html#ad92cae45f673cde64f28d6343304dc29" title="Write a buffer to the opened ASN.1 file. " alt="" coords="197,56,272,83"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#ad383d90701a1490387350b9930cc1397" title="Encode an ASN.1 tag. " alt="" coords="348,5,460,32"/>
 </map>

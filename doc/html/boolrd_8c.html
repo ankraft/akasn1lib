@@ -140,18 +140,18 @@ Functions</h2></td></tr>
 <p>Read only the boolean value w/o the tag and length. </p>
 <p>Read only the boolean value from the opened ASN.1 file, without the tag and the length. These had to be read prior. <code>value</code> is a pointer to the buffer to encode the value in. <code>length</code> is the number of bytes to read from the file.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, or 0 otherwise.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a>, <a class="el" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a>, <a class="el" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a> </dd></dl>
 
-<p>References <a class="el" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486">asnDecodeBoolean()</a>, and <a class="el" href="readbuf_8c.html#a52be43b9a15981a58559961584c91e88">asnRead()</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517">asnDecodeBoolean()</a>, and <a class="el" href="akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07">asnRead()</a>.</p>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#abadad834fc8dd63c7191f7e5c9ddcbaf">asnReadBooleanL()</a>.</p>
+<p>Referenced by <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390">asnReadBooleanL()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="boolrd_8c_aa2109306cc257a00088bce3b2907f86b_cgraph.png" border="0" usemap="#boolrd_8c_aa2109306cc257a00088bce3b2907f86b_cgraph" alt=""/></div>
 <map name="boolrd_8c_aa2109306cc257a00088bce3b2907f86b_cgraph" id="boolrd_8c_aa2109306cc257a00088bce3b2907f86b_cgraph">
-<area shape="rect" id="node2" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. " alt="" coords="177,5,316,32"/><area shape="rect" id="node3" href="readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="209,56,285,83"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. " alt="" coords="177,5,316,32"/><area shape="rect" id="node3" href="akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="209,56,285,83"/></map>
 </div>
 </p>
 
@@ -160,7 +160,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="boolrd_8c_aa2109306cc257a00088bce3b2907f86b_icgraph.png" border="0" usemap="#boolrd_8c_aa2109306cc257a00088bce3b2907f86b_icgraph" alt=""/></div>
 <map name="boolrd_8c_aa2109306cc257a00088bce3b2907f86b_icgraph" id="boolrd_8c_aa2109306cc257a00088bce3b2907f86b_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#abadad834fc8dd63c7191f7e5c9ddcbaf" title="Read a boolean value including the length from an ASN.1&#45;File. " alt="" coords="177,5,309,32"/><area shape="rect" id="node3" href="akasn1_8h.html#acdc13207a932d749c2844cc4f55bc554" title="Read a boolean value from an ASN.1&#45;File (with tag and length) " alt="" coords="357,5,497,32"/></map>
+<area shape="rect" id="node2" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1&#45;File. " alt="" coords="177,5,309,32"/><area shape="rect" id="node3" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1&#45;File (with tag and length) " alt="" coords="357,5,497,32"/></map>
 </div>
 </p>
 
@@ -183,18 +183,18 @@ Here is the caller graph for this function:</div>
 <p>Read a boolean value including the length from an ASN.1-File. </p>
 <p>Read a boolean value from the opened ASN.1 file, including the length. The type tag may have been read prior. <code>value</code> is the variable to fill with the result.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, or 0 otherwise.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a> </dd></dl>
 
-<p>References <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b">asnReadBoolean()</a>, and <a class="el" href="lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93">asnReadLength()</a>.</p>
+<p>References <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b">asnReadBoolean()</a>, and <a class="el" href="akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8">asnReadLength()</a>.</p>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#acdc13207a932d749c2844cc4f55bc554">asnReadBooleanTL()</a>.</p>
+<p>Referenced by <a class="el" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb">asnReadBooleanTL()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_cgraph.png" border="0" usemap="#boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_cgraph" alt=""/></div>
 <map name="boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_cgraph" id="boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_cgraph">
-<area shape="rect" id="node2" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. " alt="" coords="185,5,309,32"/><area shape="rect" id="node5" href="lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="189,56,305,83"/><area shape="rect" id="node3" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. " alt="" coords="357,5,496,32"/><area shape="rect" id="node4" href="readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="389,56,465,83"/></map>
+<area shape="rect" id="node2" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. " alt="" coords="185,5,309,32"/><area shape="rect" id="node5" href="akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="189,56,305,83"/><area shape="rect" id="node3" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. " alt="" coords="357,5,496,32"/><area shape="rect" id="node4" href="akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="389,56,465,83"/></map>
 </div>
 </p>
 
@@ -203,7 +203,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_icgraph.png" border="0" usemap="#boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_icgraph" alt=""/></div>
 <map name="boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_icgraph" id="boolrd_8c_ae7fd0404c28251cd9d11954ac5b3d390_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#acdc13207a932d749c2844cc4f55bc554" title="Read a boolean value from an ASN.1&#45;File (with tag and length) " alt="" coords="185,5,325,32"/></map>
+<area shape="rect" id="node2" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1&#45;File (with tag and length) " alt="" coords="185,5,325,32"/></map>
 </div>
 </p>
 
@@ -226,16 +226,16 @@ Here is the caller graph for this function:</div>
 <p>Read a boolean value from an ASN.1-File (with tag and length) </p>
 <p>Read a boolean value from the opened ASN.1 file, including the tag and the length of the encoding. <code>value</code> is the variable to fill with the result.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1. -2 is returned if the value read is not of type boolean. 0 is return if no error occured.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a> </dd></dl>
 
-<p>References <a class="el" href="akasn1_8h.html#a633816d8586a532140f5ea97a9507baa">asnBOOLEAN</a>, <a class="el" href="tagdec_8c.html#aa179105f890411d66186e982b46cc1c4">asnDecodeTag()</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390">asnReadBooleanL()</a>, <a class="el" href="tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1">asnReadTag()</a>, <a class="el" href="skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c">asnSkipFile()</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#a633816d8586a532140f5ea97a9507baa">asnBOOLEAN</a>, <a class="el" href="akasn1_8h.html#a5e363efcbbcc9e4a9a274b001f2647d5">asnDecodeTag()</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390">asnReadBooleanL()</a>, <a class="el" href="akasn1_8h.html#a118091b569d8832c05c5d099e4654959">asnReadTag()</a>, <a class="el" href="akasn1_8h.html#a430e3ead8ba5b62f5e65d578e002c8e8">asnSkipFile()</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="boolrd_8c_a1ebf8a58464e5ab943a23ed9ee8e0feb_cgraph.png" border="0" usemap="#boolrd_8c_a1ebf8a58464e5ab943a23ed9ee8e0feb_cgraph" alt=""/></div>
 <map name="boolrd_8c_a1ebf8a58464e5ab943a23ed9ee8e0feb_cgraph" id="boolrd_8c_a1ebf8a58464e5ab943a23ed9ee8e0feb_cgraph">
-<area shape="rect" id="node2" href="tagdec_8c.html#aa179105f890411d66186e982b46cc1c4" title="Decode an ASN.1 tag. " alt="" coords="203,5,315,32"/><area shape="rect" id="node3" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1&#45;File. " alt="" coords="193,56,325,83"/><area shape="rect" id="node8" href="tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="386,107,485,133"/><area shape="rect" id="node9" href="skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c" title="Skip a portion of the opened ASN.1 file. " alt="" coords="214,157,305,184"/><area shape="rect" id="node4" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. " alt="" coords="373,5,497,32"/><area shape="rect" id="node7" href="lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="377,56,493,83"/><area shape="rect" id="node5" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. " alt="" coords="545,5,684,32"/><area shape="rect" id="node6" href="readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="577,56,653,83"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#a5e363efcbbcc9e4a9a274b001f2647d5" title="Decode an ASN.1 tag. " alt="" coords="203,5,315,32"/><area shape="rect" id="node3" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1&#45;File. " alt="" coords="193,56,325,83"/><area shape="rect" id="node8" href="akasn1_8h.html#a118091b569d8832c05c5d099e4654959" title="Read a tag from the opened ASN.1 file. " alt="" coords="386,107,485,133"/><area shape="rect" id="node9" href="akasn1_8h.html#a430e3ead8ba5b62f5e65d578e002c8e8" title="Skip a portion of the opened ASN.1 file. " alt="" coords="214,157,305,184"/><area shape="rect" id="node4" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. " alt="" coords="373,5,497,32"/><area shape="rect" id="node7" href="akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="377,56,493,83"/><area shape="rect" id="node5" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. " alt="" coords="545,5,684,32"/><area shape="rect" id="node6" href="akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="577,56,653,83"/></map>
 </div>
 </p>
 

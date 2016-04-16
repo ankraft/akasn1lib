@@ -1,5 +1,5 @@
 <map id="asnReadEnum" name="asnReadEnum">
-<area shape="rect" id="node2" href="$enumdec_8c.html#a5764f68cafec1928196b3c5c9466479b" title="Decode an enumeration value. " alt="" coords="164,5,288,32"/>
-<area shape="rect" id="node4" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="188,56,264,83"/>
-<area shape="rect" id="node3" href="$intdec_8c.html#a484f0c8998c26f88da51ad854b541f22" title="Decode an integer value. " alt="" coords="336,5,467,32"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#a3108a571a9ff7d33223c26cc582b56cb" title="Decode an enumeration value. " alt="" coords="164,5,288,32"/>
+<area shape="rect" id="node4" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="188,56,264,83"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#ab847eb245d170467c825e6e0415a9526" title="Decode an integer value. " alt="" coords="336,5,467,32"/>
 </map>

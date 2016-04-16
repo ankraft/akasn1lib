@@ -137,18 +137,18 @@ Functions</h2></td></tr>
 <p>Encode a boolean value. </p>
 <p>Encode a boolean <code>value</code> into a <code>buffer</code>. The type tag and length is also encoded.</p>
 <dl class="section return"><dt>Returns</dt><dd>The function returns -1 in case of an error, or the length of the encoding in the <code>buffer</code>.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="akasn1_8h.html#ac2072e0c4cff3f5d683def27f94ccf4c" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="akasn1_8h.html#acdc13207a932d749c2844cc4f55bc554" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a>, <a class="el" href="akasn1_8h.html#abadad834fc8dd63c7191f7e5c9ddcbaf" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a>, <a class="el" href="akasn1_8h.html#adfc2e9681ba795e50911540a3c02c77f" title="Write a boolean value into an ASN.1 file. ">asnWriteBoolean</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a>, <a class="el" href="boolwr_8c.html#a5babbc5f1af0c7cc72d5a6fa56ecbb84" title="Write a boolean value into an ASN.1 file. ">asnWriteBoolean</a> </dd></dl>
 
-<p>References <a class="el" href="akasn1_8h.html#a633816d8586a532140f5ea97a9507baa">asnBOOLEAN</a>, <a class="el" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c">asnEncodeLength()</a>, <a class="el" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, <a class="el" href="akasn1_8h.html#a06f15d96caf008c20c8331361a0e8d6b">asnTRUE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#a633816d8586a532140f5ea97a9507baa">asnBOOLEAN</a>, <a class="el" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef">asnEncodeLength()</a>, <a class="el" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, <a class="el" href="akasn1_8h.html#a06f15d96caf008c20c8331361a0e8d6b">asnTRUE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#adfc2e9681ba795e50911540a3c02c77f">asnWriteBoolean()</a>.</p>
+<p>Referenced by <a class="el" href="boolwr_8c.html#a5babbc5f1af0c7cc72d5a6fa56ecbb84">asnWriteBoolean()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_cgraph.png" border="0" usemap="#boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_cgraph" alt=""/></div>
 <map name="boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_cgraph" id="boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_cgraph">
-<area shape="rect" id="node2" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c" title="Encode a &quot;length&quot; field. " alt="" coords="191,5,320,32"/><area shape="rect" id="node3" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7" title="Encode an ASN.1 tag. " alt="" coords="199,56,311,83"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef" title="Encode a &quot;length&quot; field. " alt="" coords="191,5,320,32"/><area shape="rect" id="node3" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397" title="Encode an ASN.1 tag. " alt="" coords="199,56,311,83"/></map>
 </div>
 </p>
 
@@ -157,7 +157,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_icgraph.png" border="0" usemap="#boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_icgraph" alt=""/></div>
 <map name="boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_icgraph" id="boolenc_8c_a06969782bfb7ddfc8a975c2fbdcc34ef_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#adfc2e9681ba795e50911540a3c02c77f" title="Write a boolean value into an ASN.1 file. " alt="" coords="191,5,315,32"/></map>
+<area shape="rect" id="node2" href="boolwr_8c.html#a5babbc5f1af0c7cc72d5a6fa56ecbb84" title="Write a boolean value into an ASN.1 file. " alt="" coords="191,5,315,32"/></map>
 </div>
 </p>
 
@@ -190,7 +190,7 @@ Here is the caller graph for this function:</div>
 <p>Encode a boolean value. </p>
 <p>Encode a boolean <code>value</code> into a <code>buffer</code>. The type tag and length is NOT encoded, only the value</p>
 <dl class="section return"><dt>Returns</dt><dd>The function returns -1 in case of an error, or the length of the encoding in the <code>buffer</code>.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#ae9f3d032c752becf1944b8b24d352517" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="akasn1_8h.html#ac2072e0c4cff3f5d683def27f94ccf4c" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="akasn1_8h.html#acdc13207a932d749c2844cc4f55bc554" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a>, <a class="el" href="akasn1_8h.html#abadad834fc8dd63c7191f7e5c9ddcbaf" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a>, <a class="el" href="akasn1_8h.html#adfc2e9681ba795e50911540a3c02c77f" title="Write a boolean value into an ASN.1 file. ">asnWriteBoolean</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="booldec_8c.html#a35ccc9ea95f39673517452ff1d447486" title="Decode a boolean value from a buffer. ">asnDecodeBoolean</a>, <a class="el" href="boolrd_8c.html#aa2109306cc257a00088bce3b2907f86b" title="Read only the boolean value w/o the tag and length. ">asnReadBoolean</a>, <a class="el" href="boolrd_8c.html#a1ebf8a58464e5ab943a23ed9ee8e0feb" title="Read a boolean value from an ASN.1-File (with tag and length) ">asnReadBooleanTL</a>, <a class="el" href="boolrd_8c.html#ae7fd0404c28251cd9d11954ac5b3d390" title="Read a boolean value including the length from an ASN.1-File. ">asnReadBooleanL</a>, <a class="el" href="boolwr_8c.html#a5babbc5f1af0c7cc72d5a6fa56ecbb84" title="Write a boolean value into an ASN.1 file. ">asnWriteBoolean</a> </dd></dl>
 
 </div>
 </div>

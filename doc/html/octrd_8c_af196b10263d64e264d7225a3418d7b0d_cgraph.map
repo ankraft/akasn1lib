@@ -1,8 +1,8 @@
 <map id="asnReadOctet" name="asnReadOctet">
-<area shape="rect" id="node2" href="$octdec_8c.html#adbe2f0b1c31280fb670e152d07742d56" title="Decode an octet string from a buffer. " alt="" coords="160,5,281,32"/>
-<area shape="rect" id="node3" href="$tagdec_8c.html#aa179105f890411d66186e982b46cc1c4" title="Decode an ASN.1 tag. " alt="" coords="165,56,277,83"/>
-<area shape="rect" id="node4" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="329,157,405,184"/>
-<area shape="rect" id="node5" href="$lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="163,157,279,184"/>
-<area shape="rect" id="node6" href="$tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="171,208,270,235"/>
-<area shape="rect" id="node7" href="$skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c" title="Skip a portion of the opened ASN.1 file. " alt="" coords="175,259,266,285"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#ad3612a0c5dd48fde5f19a4d3180a6977" title="Decode an octet string from a buffer. " alt="" coords="160,5,281,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#a5e363efcbbcc9e4a9a274b001f2647d5" title="Decode an ASN.1 tag. " alt="" coords="165,56,277,83"/>
+<area shape="rect" id="node4" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="329,157,405,184"/>
+<area shape="rect" id="node5" href="$akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="163,157,279,184"/>
+<area shape="rect" id="node6" href="$akasn1_8h.html#a118091b569d8832c05c5d099e4654959" title="Read a tag from the opened ASN.1 file. " alt="" coords="171,208,270,235"/>
+<area shape="rect" id="node7" href="$akasn1_8h.html#a430e3ead8ba5b62f5e65d578e002c8e8" title="Skip a portion of the opened ASN.1 file. " alt="" coords="175,259,266,285"/>
 </map>

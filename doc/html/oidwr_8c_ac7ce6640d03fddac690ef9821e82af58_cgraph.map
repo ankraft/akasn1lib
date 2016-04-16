@@ -1,4 +1,4 @@
 <map id="asnWriteOid" name="asnWriteOid">
-<area shape="rect" id="node2" href="$oidenc_8c.html#a571af6b17ae2d4358fced178c6122e6c" title="Encode an object identifier with the tag and length. " alt="" coords="149,5,259,32"/>
-<area shape="rect" id="node3" href="$writebuf_8c.html#ad4e5748ca9cf4b3517ad197dfa19818a" title="Write a buffer to the opened ASN.1 file. " alt="" coords="167,56,241,83"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#af28e11acf75e6e6e8dec185156d06618" title="Encode an object identifier with the tag and length. " alt="" coords="149,5,259,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#ad92cae45f673cde64f28d6343304dc29" title="Write a buffer to the opened ASN.1 file. " alt="" coords="167,56,241,83"/>
 </map>

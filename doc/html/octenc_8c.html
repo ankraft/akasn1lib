@@ -153,18 +153,18 @@ Functions</h2></td></tr>
 <p>Encode an octet string with tag and length into a buffer. <code>value</code> is a pointer to the buffer to encode. <code>length</code> is the number of bytes in the <code>value</code> buffer to encode. <code>tag_len</code> is the buffer for the tag and the length of the encoding. <code>tl_length</code> is a pointer to a variable for the resulting length of <code>tag_len</code>.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, or the length of the encoding (only the octet string, w/o <code>tl_length</code>) otherwise.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>The encoding has to be ASN.1 primitive. The constructed encoding is not supported yet. The maximum number of bytes has to be less than MAXINT.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#aeea9af9844047cb0bcd2929c4e6fef5b" title="Get position in the opened ASN.1-File. ">asnFtell</a>, <a class="el" href="akasn1_8h.html#a8c68611478b83a73b440bbb7e75ad1af" title="Open an ASN.1 file for reading. ">asnOpenReadFile</a>, asnOpenQriteFile </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="asnftell_8c.html#a715e8f433e4236e21f2a7e27298f7f75" title="Get position in the opened ASN.1-File. ">asnFtell</a>, <a class="el" href="oprdfile_8c.html#a0105130501c031be0f41616e76abf2b1" title="Open an ASN.1 file for reading. ">asnOpenReadFile</a>, asnOpenQriteFile </dd></dl>
 
-<p>References <a class="el" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c">asnEncodeLength()</a>, <a class="el" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef">asnEncodeLength()</a>, <a class="el" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#ac3c766a63306dd1d20c94c0ec13a0d03">_asnWriteOctet()</a>.</p>
+<p>Referenced by <a class="el" href="octwr_8c.html#a42d22115464f8492d35b5c4517fbac7a">_asnWriteOctet()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_cgraph.png" border="0" usemap="#octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_cgraph" alt=""/></div>
 <map name="octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_cgraph" id="octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_cgraph">
-<area shape="rect" id="node2" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c" title="Encode a &quot;length&quot; field. " alt="" coords="173,5,303,32"/><area shape="rect" id="node3" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7" title="Encode an ASN.1 tag. " alt="" coords="182,56,294,83"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef" title="Encode a &quot;length&quot; field. " alt="" coords="173,5,303,32"/><area shape="rect" id="node3" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397" title="Encode an ASN.1 tag. " alt="" coords="182,56,294,83"/></map>
 </div>
 </p>
 
@@ -173,7 +173,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_icgraph.png" border="0" usemap="#octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_icgraph" alt=""/></div>
 <map name="octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_icgraph" id="octenc_8c_a8948fa99154b2d6c9cc2db518028cffa_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#ac3c766a63306dd1d20c94c0ec13a0d03" title="Write an octet string into an ASN.1 file. " alt="" coords="173,5,287,32"/></map>
+<area shape="rect" id="node2" href="octwr_8c.html#a42d22115464f8492d35b5c4517fbac7a" title="Write an octet string into an ASN.1 file. " alt="" coords="173,5,287,32"/></map>
 </div>
 </p>
 

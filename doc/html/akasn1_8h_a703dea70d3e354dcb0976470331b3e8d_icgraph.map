@@ -1,5 +1,5 @@
 <map id="asnReadOid" name="asnReadOid">
-<area shape="rect" id="node2" href="$akasn1_8h.html#ae46937cab459dac6ca274422c8a32b23" title="Read an X.400 EXTERNAL body part from an ASN.1 file. " alt="" coords="149,5,313,32"/>
-<area shape="rect" id="node3" href="$akasn1_8h.html#a40494ed2c63337c3b4fe663a3393c65b" title="Read an object identifier from an ASN.1&#45;File (with length) " alt="" coords="179,56,283,83"/>
-<area shape="rect" id="node4" href="$akasn1_8h.html#a9e8e820b97583d4db1c6e6e859d7968e" title="Read an object identifier from an ASN.1&#45;File (with tag and length) " alt="" coords="361,56,473,83"/>
+<area shape="rect" id="node2" href="$extrd_8c.html#aea5498577789c0053684b9897a30b1b6" title="Read an X.400 EXTERNAL body part from an ASN.1 file. " alt="" coords="149,5,313,32"/>
+<area shape="rect" id="node3" href="$oidrd_8c.html#a65994551b544bdc137992ea23fba5b94" title="Read an object identifier from an ASN.1&#45;File (with length) " alt="" coords="179,56,283,83"/>
+<area shape="rect" id="node4" href="$oidrd_8c.html#ad3a785c3f9ded92099766024486b28c5" title="Read an object identifier from an ASN.1&#45;File (with tag and length) " alt="" coords="361,56,473,83"/>
 </map>

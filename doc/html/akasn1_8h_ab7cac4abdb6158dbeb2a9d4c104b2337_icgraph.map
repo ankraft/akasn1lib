@@ -1,4 +1,4 @@
 <map id="asnReadOctetFile" name="asnReadOctetFile">
-<area shape="rect" id="node2" href="$akasn1_8h.html#a89d301f52b348bc2778f7eab1b088a6f" title="Read an octet string from an ASN.1&#45;File (with the tag) and write it to another file. " alt="" coords="183,29,319,56"/>
-<area shape="rect" id="node3" href="$akasn1_8h.html#a26487f9911005e98c6149a418500daee" title="Read an octet string from an ASN.1&#45;File and write it to another file. " alt="" coords="367,29,511,56"/>
+<area shape="rect" id="node2" href="$octrd_8c.html#ac614ee0b02d42b6f6b361298d4cfa985" title="Read an octet string from an ASN.1&#45;File (with the tag) and write it to another file. " alt="" coords="183,5,319,32"/>
+<area shape="rect" id="node3" href="$octrd_8c.html#ac550e468b15e73e4ec1091049f44c8e3" title="Read an octet string from an ASN.1&#45;File and write it to another file. " alt="" coords="367,5,511,32"/>
 </map>

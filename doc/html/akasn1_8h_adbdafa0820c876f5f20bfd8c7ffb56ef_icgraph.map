@@ -1,13 +1,13 @@
 <map id="asnEncodeLength" name="asnEncodeLength">
-<area shape="rect" id="node2" href="$akasn1_8h.html#af263ff09aaa15ff7cafc35365810ec7b" title="Read data from a file and write it as an octet string into an ASN.1 file. " alt="" coords="196,5,332,32"/>
-<area shape="rect" id="node3" href="$akasn1_8h.html#ac291ccbd02f4ddaa0b38d148ed4bc682" title="Encode a boolean value. " alt="" coords="195,56,333,83"/>
-<area shape="rect" id="node5" href="$akasn1_8h.html#a810acefd5211b3d19586cbfcd1ed0460" title="Encode an enumeration value with tag and length. " alt="" coords="202,107,326,133"/>
-<area shape="rect" id="node7" href="$akasn1_8h.html#ad4d6154a9bd5becfaf186300c8f21e3d" title="Encode an IA5&#45;String with tag and length. " alt="" coords="209,157,319,184"/>
-<area shape="rect" id="node9" href="$akasn1_8h.html#abb1373b93f52f959d37eff1365f3dcc2" title="Encode an octet string with tag and length into a buffer. " alt="" coords="204,208,324,235"/>
-<area shape="rect" id="node11" href="$akasn1_8h.html#a4b28218f2e7992f28a5add6013401344" title="Write an X.400 EXTERNAL body part to a file. " alt="" coords="183,259,345,285"/>
-<area shape="rect" id="node12" href="$akasn1_8h.html#a1302b106559875e9e3a9ca009b7214c6" title="Write an encoded ASN.1 length field to the open ASN.1 file. " alt="" coords="206,309,322,336"/>
-<area shape="rect" id="node4" href="$akasn1_8h.html#adfc2e9681ba795e50911540a3c02c77f" title="Write a boolean value into an ASN.1 file. " alt="" coords="393,56,517,83"/>
-<area shape="rect" id="node6" href="$akasn1_8h.html#a53c177496e97ef2e5687e7afdbd8f7e1" title="Write an enumeration value into an ASN.1 file. " alt="" coords="401,107,510,133"/>
-<area shape="rect" id="node8" href="$akasn1_8h.html#affe19548ddf9977425a8ab2b27d86a96" title="Write an IA5&#45;String into an ASN.1 file. " alt="" coords="408,157,503,184"/>
-<area shape="rect" id="node10" href="$akasn1_8h.html#ac3c766a63306dd1d20c94c0ec13a0d03" title="Write an octet string into an ASN.1 file. " alt="" coords="399,208,512,235"/>
+<area shape="rect" id="node2" href="$octwr_8c.html#a2a73c7fdbe6271ed9df6a797d83b15eb" title="Read data from a file and write it as an octet string into an ASN.1 file. " alt="" coords="196,5,332,32"/>
+<area shape="rect" id="node3" href="$boolenc_8c.html#a06969782bfb7ddfc8a975c2fbdcc34ef" title="Encode a boolean value. " alt="" coords="195,56,333,83"/>
+<area shape="rect" id="node5" href="$enumenc_8c.html#af94b5ea3923c266366e69d1c2adc053e" title="Encode an enumeration value with tag and length. " alt="" coords="202,107,326,133"/>
+<area shape="rect" id="node7" href="$ia5enc_8c.html#a59a0c8ec7d73652ad6a5e9118324b393" title="Encode an IA5&#45;String with tag and length. " alt="" coords="209,157,319,184"/>
+<area shape="rect" id="node9" href="$octenc_8c.html#a8948fa99154b2d6c9cc2db518028cffa" title="Encode an octet string with tag and length into a buffer. " alt="" coords="204,208,324,235"/>
+<area shape="rect" id="node11" href="$extwr_8c.html#a7a6d18c25b2f7e02fb498ffda3ccaf71" title="Write an X.400 EXTERNAL body part to a file. " alt="" coords="183,259,345,285"/>
+<area shape="rect" id="node12" href="$lenwr_8c.html#a4242348794d256804591f7bf30698a97" title="Write an encoded ASN.1 length field to the open ASN.1 file. " alt="" coords="206,309,322,336"/>
+<area shape="rect" id="node4" href="$boolwr_8c.html#a5babbc5f1af0c7cc72d5a6fa56ecbb84" title="Write a boolean value into an ASN.1 file. " alt="" coords="393,56,517,83"/>
+<area shape="rect" id="node6" href="$enumwr_8c.html#a726955f7bb2ef7ebb10ef2d7afcade96" title="Write an enumeration value into an ASN.1 file. " alt="" coords="401,107,510,133"/>
+<area shape="rect" id="node8" href="$ia5wr_8c.html#a5aab74e254713b538e856d7426dd8229" title="Write an IA5&#45;String into an ASN.1 file. " alt="" coords="408,157,503,184"/>
+<area shape="rect" id="node10" href="$octwr_8c.html#a42d22115464f8492d35b5c4517fbac7a" title="Write an octet string into an ASN.1 file. " alt="" coords="399,208,512,235"/>
 </map>

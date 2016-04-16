@@ -1,5 +1,5 @@
 <map id="asnReadTagAndLength" name="asnReadTagAndLength">
-<area shape="rect" id="node2" href="$lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="216,5,332,32"/>
-<area shape="rect" id="node4" href="$tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="225,56,323,83"/>
-<area shape="rect" id="node3" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="380,31,456,57"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="216,5,332,32"/>
+<area shape="rect" id="node4" href="$akasn1_8h.html#a118091b569d8832c05c5d099e4654959" title="Read a tag from the opened ASN.1 file. " alt="" coords="225,56,323,83"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="380,31,456,57"/>
 </map>

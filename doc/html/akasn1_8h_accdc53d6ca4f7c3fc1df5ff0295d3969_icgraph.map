@@ -1,6 +1,6 @@
 <map id="asnDecodeOid" name="asnDecodeOid">
-<area shape="rect" id="node2" href="$akasn1_8h.html#a703dea70d3e354dcb0976470331b3e8d" title="Read an object identifier from an ASN.1&#45;File (w/o tag and length) " alt="" coords="164,31,260,57"/>
-<area shape="rect" id="node3" href="$akasn1_8h.html#ae46937cab459dac6ca274422c8a32b23" title="Read an X.400 EXTERNAL body part from an ASN.1 file. " alt="" coords="308,5,472,32"/>
-<area shape="rect" id="node4" href="$akasn1_8h.html#a40494ed2c63337c3b4fe663a3393c65b" title="Read an object identifier from an ASN.1&#45;File (with length) " alt="" coords="338,56,442,83"/>
-<area shape="rect" id="node5" href="$akasn1_8h.html#a9e8e820b97583d4db1c6e6e859d7968e" title="Read an object identifier from an ASN.1&#45;File (with tag and length) " alt="" coords="520,56,632,83"/>
+<area shape="rect" id="node2" href="$oidrd_8c.html#a8782ace8b8afb2cba6a4151f6705f6f1" title="Read an object identifier from an ASN.1&#45;File (w/o tag and length) " alt="" coords="164,31,260,57"/>
+<area shape="rect" id="node3" href="$extrd_8c.html#aea5498577789c0053684b9897a30b1b6" title="Read an X.400 EXTERNAL body part from an ASN.1 file. " alt="" coords="308,5,472,32"/>
+<area shape="rect" id="node4" href="$oidrd_8c.html#a65994551b544bdc137992ea23fba5b94" title="Read an object identifier from an ASN.1&#45;File (with length) " alt="" coords="338,56,442,83"/>
+<area shape="rect" id="node5" href="$oidrd_8c.html#ad3a785c3f9ded92099766024486b28c5" title="Read an object identifier from an ASN.1&#45;File (with tag and length) " alt="" coords="520,56,632,83"/>
 </map>

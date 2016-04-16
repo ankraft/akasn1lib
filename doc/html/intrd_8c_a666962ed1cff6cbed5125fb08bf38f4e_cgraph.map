@@ -1,4 +1,4 @@
 <map id="asnReadInteger" name="asnReadInteger">
-<area shape="rect" id="node2" href="$intdec_8c.html#a484f0c8998c26f88da51ad854b541f22" title="Decode an integer value. " alt="" coords="171,5,301,32"/>
-<area shape="rect" id="node3" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="198,56,274,83"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#ab847eb245d170467c825e6e0415a9526" title="Decode an integer value. " alt="" coords="171,5,301,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="198,56,274,83"/>
 </map>

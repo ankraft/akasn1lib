@@ -143,18 +143,18 @@ Functions</h2></td></tr>
 <p>Encode an IA5-String with tag and length into a buffer. <code>value</code> is a 0-terminated C-string. <code>buffer</code> is a buffer in which the encoding of the tag and the length will be done. The length of the encoding in <code>buffer</code> will be returned in <code>length</code>.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, -2 of the value is not a legal IA5-String or the length of the result in <code>buffer</code> otherwise.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Restriction: The length of the string has to be less than MAXINT.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#a44b85e2469b8753f6c24c1cd42c808af" title="Decode an IA5-String. ">asnDecodeIA5</a>, <a class="el" href="akasn1_8h.html#acaad1cac1f6e695b82959ab4304c7f08" title="Read only the IA5-String w/o the tag and length. ">asnReadIA5</a>, <a class="el" href="akasn1_8h.html#affe19548ddf9977425a8ab2b27d86a96" title="Write an IA5-String into an ASN.1 file. ">asnWriteIA5</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="ia5dec_8c.html#a1608e9158a23cb6edf6d8c63ffc0c5b6" title="Decode an IA5-String. ">asnDecodeIA5</a>, <a class="el" href="ia5rd_8c.html#aac94bbfec51fac8520009207efd48dee" title="Read only the IA5-String w/o the tag and length. ">asnReadIA5</a>, <a class="el" href="ia5wr_8c.html#a5aab74e254713b538e856d7426dd8229" title="Write an IA5-String into an ASN.1 file. ">asnWriteIA5</a> </dd></dl>
 
-<p>References <a class="el" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c">asnEncodeLength()</a>, <a class="el" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a0333a73489f680d77eeaa0a20b705875">asnIA5STRING</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef">asnEncodeLength()</a>, <a class="el" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a0333a73489f680d77eeaa0a20b705875">asnIA5STRING</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#affe19548ddf9977425a8ab2b27d86a96">asnWriteIA5()</a>.</p>
+<p>Referenced by <a class="el" href="ia5wr_8c.html#a5aab74e254713b538e856d7426dd8229">asnWriteIA5()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_cgraph.png" border="0" usemap="#ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_cgraph" alt=""/></div>
 <map name="ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_cgraph" id="ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_cgraph">
-<area shape="rect" id="node2" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c" title="Encode a &quot;length&quot; field. " alt="" coords="163,5,292,32"/><area shape="rect" id="node3" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7" title="Encode an ASN.1 tag. " alt="" coords="171,56,283,83"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef" title="Encode a &quot;length&quot; field. " alt="" coords="163,5,292,32"/><area shape="rect" id="node3" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397" title="Encode an ASN.1 tag. " alt="" coords="171,56,283,83"/></map>
 </div>
 </p>
 
@@ -163,7 +163,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_icgraph.png" border="0" usemap="#ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_icgraph" alt=""/></div>
 <map name="ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_icgraph" id="ia5enc_8c_a59a0c8ec7d73652ad6a5e9118324b393_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#affe19548ddf9977425a8ab2b27d86a96" title="Write an IA5&#45;String into an ASN.1 file. " alt="" coords="163,5,257,32"/></map>
+<area shape="rect" id="node2" href="ia5wr_8c.html#a5aab74e254713b538e856d7426dd8229" title="Write an IA5&#45;String into an ASN.1 file. " alt="" coords="163,5,257,32"/></map>
 </div>
 </p>
 

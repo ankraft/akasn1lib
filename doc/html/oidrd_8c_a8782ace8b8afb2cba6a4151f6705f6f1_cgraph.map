@@ -1,4 +1,4 @@
 <map id="asnReadOid" name="asnReadOid">
-<area shape="rect" id="node2" href="$oiddec_8c.html#aa11673257c2bf59227bff82e12b73622" title="Decode an object identifier from a buffer into a string. " alt="" coords="149,5,260,32"/>
-<area shape="rect" id="node3" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="167,56,243,83"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#accdc53d6ca4f7c3fc1df5ff0295d3969" title="Decode an object identifier from a buffer into a string. " alt="" coords="149,5,260,32"/>
+<area shape="rect" id="node3" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="167,56,243,83"/>
 </map>

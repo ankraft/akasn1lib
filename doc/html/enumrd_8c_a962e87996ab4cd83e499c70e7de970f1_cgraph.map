@@ -1,11 +1,11 @@
 <map id="asnReadEnumTL" name="asnReadEnumTL">
-<area shape="rect" id="node2" href="$tagdec_8c.html#aa179105f890411d66186e982b46cc1c4" title="Decode an ASN.1 tag. " alt="" coords="181,5,293,32"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#a5e363efcbbcc9e4a9a274b001f2647d5" title="Decode an ASN.1 tag. " alt="" coords="181,5,293,32"/>
 <area shape="rect" id="node3" href="$enumrd_8c.html#a181b777aadd97947d29f43baed624abd" title="Read an enumeration value including the length from an ASN.1&#45;File. " alt="" coords="179,56,296,83"/>
-<area shape="rect" id="node9" href="$tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="353,107,451,133"/>
-<area shape="rect" id="node10" href="$skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c" title="Skip a portion of the opened ASN.1 file. " alt="" coords="192,157,283,184"/>
+<area shape="rect" id="node9" href="$akasn1_8h.html#a118091b569d8832c05c5d099e4654959" title="Read a tag from the opened ASN.1 file. " alt="" coords="353,107,451,133"/>
+<area shape="rect" id="node10" href="$akasn1_8h.html#a430e3ead8ba5b62f5e65d578e002c8e8" title="Skip a portion of the opened ASN.1 file. " alt="" coords="192,157,283,184"/>
 <area shape="rect" id="node4" href="$enumrd_8c.html#a7a78cb998609746bee06218eca707ffb" title="Read only the enumeration value w/o the tag and length. " alt="" coords="347,5,457,32"/>
-<area shape="rect" id="node8" href="$lenrd_8c.html#a7e3e6c2dfbc8aefb493d05f1bcc79e93" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="344,56,460,83"/>
-<area shape="rect" id="node5" href="$enumdec_8c.html#a5764f68cafec1928196b3c5c9466479b" title="Decode an enumeration value. " alt="" coords="508,5,632,32"/>
-<area shape="rect" id="node7" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="532,56,608,83"/>
-<area shape="rect" id="node6" href="$intdec_8c.html#a484f0c8998c26f88da51ad854b541f22" title="Decode an integer value. " alt="" coords="680,5,811,32"/>
+<area shape="rect" id="node8" href="$akasn1_8h.html#aacb6c441efd1e8d953697de0af0ee9d8" title="Read a &quot;length&quot; field from the opened ASN.1 file. " alt="" coords="344,56,460,83"/>
+<area shape="rect" id="node5" href="$akasn1_8h.html#a3108a571a9ff7d33223c26cc582b56cb" title="Decode an enumeration value. " alt="" coords="508,5,632,32"/>
+<area shape="rect" id="node7" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="532,56,608,83"/>
+<area shape="rect" id="node6" href="$akasn1_8h.html#ab847eb245d170467c825e6e0415a9526" title="Decode an integer value. " alt="" coords="680,5,811,32"/>
 </map>

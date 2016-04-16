@@ -1,7 +1,7 @@
 <map id="asnReadNullTL" name="asnReadNullTL">
-<area shape="rect" id="node2" href="$tagdec_8c.html#aa179105f890411d66186e982b46cc1c4" title="Decode an ASN.1 tag. " alt="" coords="167,5,279,32"/>
+<area shape="rect" id="node2" href="$akasn1_8h.html#a5e363efcbbcc9e4a9a274b001f2647d5" title="Decode an ASN.1 tag. " alt="" coords="167,5,279,32"/>
 <area shape="rect" id="node3" href="$nullrd_8c.html#a66547dd6e055d98dbd6db4ee8395d428" title="Read a Null value with length field. " alt="" coords="170,56,275,83"/>
-<area shape="rect" id="node4" href="$skipfile_8c.html#ac7356f324d99350db1873d6ef16ba52c" title="Skip a portion of the opened ASN.1 file. " alt="" coords="327,81,417,108"/>
-<area shape="rect" id="node5" href="$tagrd_8c.html#a0073109622d65ab17f75604e3da8c6c1" title="Read a tag from the opened ASN.1 file. " alt="" coords="173,157,272,184"/>
-<area shape="rect" id="node6" href="$readbuf_8c.html#a52be43b9a15981a58559961584c91e88" title="Read some data from the ASN.1 file. " alt="" coords="334,157,410,184"/>
+<area shape="rect" id="node4" href="$akasn1_8h.html#a430e3ead8ba5b62f5e65d578e002c8e8" title="Skip a portion of the opened ASN.1 file. " alt="" coords="327,81,417,108"/>
+<area shape="rect" id="node5" href="$akasn1_8h.html#a118091b569d8832c05c5d099e4654959" title="Read a tag from the opened ASN.1 file. " alt="" coords="173,157,272,184"/>
+<area shape="rect" id="node6" href="$akasn1_8h.html#a5c15900fbefb0803c92a9c985a16ee07" title="Read some data from the ASN.1 file. " alt="" coords="334,157,410,184"/>
 </map>

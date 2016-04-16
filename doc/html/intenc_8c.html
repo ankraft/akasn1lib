@@ -185,18 +185,18 @@ Functions</h2></td></tr>
 <p>Encode an Integer (C-type long) with tag and length into a buffer. <code>buffer</code> is the buffer to fill with the resulting encoding, <code>value</code> is the integer value to encode.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, or the length of the result in <code>buffer</code> otherwise.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Restriction: The Integer has to be less than 2^31.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#ab847eb245d170467c825e6e0415a9526" title="Decode an integer value. ">asnDecodeInteger</a>, <a class="el" href="akasn1_8h.html#a596b2218a199318bb918383fd036af0e" title="Read only a integer value w/o the tag and length. ">asnReadInteger</a>, <a class="el" href="akasn1_8h.html#aa217415ec173e8ff234c61a4648dedd4" title="Write an integer value into an ASN.1 file. ">asnWriteInteger</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="intdec_8c.html#a484f0c8998c26f88da51ad854b541f22" title="Decode an integer value. ">asnDecodeInteger</a>, <a class="el" href="intrd_8c.html#a666962ed1cff6cbed5125fb08bf38f4e" title="Read only a integer value w/o the tag and length. ">asnReadInteger</a>, <a class="el" href="intwr_8c.html#a8811d07078b973dcbcaec19619e61110" title="Write an integer value into an ASN.1 file. ">asnWriteInteger</a> </dd></dl>
 
-<p>References <a class="el" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a4abc88b240aa397773ecfe0722668826">asnINTEGER</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#a4abc88b240aa397773ecfe0722668826">asnINTEGER</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, and <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>.</p>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#aa217415ec173e8ff234c61a4648dedd4">asnWriteInteger()</a>.</p>
+<p>Referenced by <a class="el" href="intwr_8c.html#a8811d07078b973dcbcaec19619e61110">asnWriteInteger()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_cgraph.png" border="0" usemap="#intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_cgraph" alt=""/></div>
 <map name="intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_cgraph" id="intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_cgraph">
-<area shape="rect" id="node2" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7" title="Encode an ASN.1 tag. " alt="" coords="184,5,296,32"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397" title="Encode an ASN.1 tag. " alt="" coords="184,5,296,32"/></map>
 </div>
 </p>
 
@@ -205,7 +205,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_icgraph.png" border="0" usemap="#intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_icgraph" alt=""/></div>
 <map name="intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_icgraph" id="intenc_8c_a0af83cef49469cf1c833f2f9f4fb1c9e_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#aa217415ec173e8ff234c61a4648dedd4" title="Write an integer value into an ASN.1 file. " alt="" coords="184,5,300,32"/></map>
+<area shape="rect" id="node2" href="intwr_8c.html#a8811d07078b973dcbcaec19619e61110" title="Write an integer value into an ASN.1 file. " alt="" coords="184,5,300,32"/></map>
 </div>
 </p>
 
@@ -239,16 +239,16 @@ Here is the caller graph for this function:</div>
 <p>Encode an Integer (C-type long) with tag but without the length into a buffer. <code>buffer</code> is the buffer to fill with the resulting encoding, <code>value</code> is the integer value to encode.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, or the length of the result in <code>buffer</code> otherwise.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Restriction: The Integer has to be less than 2^31.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#ab847eb245d170467c825e6e0415a9526" title="Decode an integer value. ">asnDecodeInteger</a>, <a class="el" href="akasn1_8h.html#a596b2218a199318bb918383fd036af0e" title="Read only a integer value w/o the tag and length. ">asnReadInteger</a>, <a class="el" href="akasn1_8h.html#aa217415ec173e8ff234c61a4648dedd4" title="Write an integer value into an ASN.1 file. ">asnWriteInteger</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="intdec_8c.html#a484f0c8998c26f88da51ad854b541f22" title="Decode an integer value. ">asnDecodeInteger</a>, <a class="el" href="intrd_8c.html#a666962ed1cff6cbed5125fb08bf38f4e" title="Read only a integer value w/o the tag and length. ">asnReadInteger</a>, <a class="el" href="intwr_8c.html#a8811d07078b973dcbcaec19619e61110" title="Write an integer value into an ASN.1 file. ">asnWriteInteger</a> </dd></dl>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#a56b1067715bd5e76ebf5417010799e21">asnEncodeEnumValue()</a>.</p>
+<p>Referenced by <a class="el" href="enumenc_8c.html#a37c04c3635669a918fa64fc6621997b7">asnEncodeEnumValue()</a>.</p>
 
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="intenc_8c_ae19876f2208780bdf05bb15510b7d257_icgraph.png" border="0" usemap="#intenc_8c_ae19876f2208780bdf05bb15510b7d257_icgraph" alt=""/></div>
 <map name="intenc_8c_ae19876f2208780bdf05bb15510b7d257_icgraph" id="intenc_8c_ae19876f2208780bdf05bb15510b7d257_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#a56b1067715bd5e76ebf5417010799e21" title="Encode an enumeration value as an integer with tag and length. " alt="" coords="217,5,375,32"/></map>
+<area shape="rect" id="node2" href="enumenc_8c.html#a37c04c3635669a918fa64fc6621997b7" title="Encode an enumeration value as an integer with tag and length. " alt="" coords="217,5,375,32"/></map>
 </div>
 </p>
 

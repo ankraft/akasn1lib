@@ -130,7 +130,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#a810acefd5211b3d19586cbfcd1ed0460">asnEncodeEnum()</a>.</p>
+<p>Referenced by <a class="el" href="enumenc_8c.html#af94b5ea3923c266366e69d1c2adc053e">asnEncodeEnum()</a>.</p>
 
 </div>
 </div>
@@ -144,7 +144,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#a810acefd5211b3d19586cbfcd1ed0460">asnEncodeEnum()</a>.</p>
+<p>Referenced by <a class="el" href="enumenc_8c.html#af94b5ea3923c266366e69d1c2adc053e">asnEncodeEnum()</a>.</p>
 
 </div>
 </div>
@@ -158,7 +158,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#a810acefd5211b3d19586cbfcd1ed0460">asnEncodeEnum()</a>.</p>
+<p>Referenced by <a class="el" href="enumenc_8c.html#af94b5ea3923c266366e69d1c2adc053e">asnEncodeEnum()</a>.</p>
 
 </div>
 </div>
@@ -188,21 +188,21 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Encode an enumeration value with tag and length. </p>
-<p>Encode an enumeration (C-type long) with tag and length into a buffer. This function does the same as the function <a class="el" href="akasn1_8h.html#a39bf457b9d314ee6c58d0cc70a9f32f2">asnEncodeInteger</a> except the encoding value of the tag. <code>buffer</code> is the buffer to fill with the resulting encoding, <code>value</code> is the enumeration value to encode.</p>
+<p>Encode an enumeration (C-type long) with tag and length into a buffer. This function does the same as the function <a class="el" href="intenc_8c.html#a0af83cef49469cf1c833f2f9f4fb1c9e">asnEncodeInteger</a> except the encoding value of the tag. <code>buffer</code> is the buffer to fill with the resulting encoding, <code>value</code> is the enumeration value to encode.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, or the length of the result in <code>buffer</code> otherwise.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#a3108a571a9ff7d33223c26cc582b56cb" title="Decode an enumeration value. ">asnDecodeEnum</a>, <a class="el" href="akasn1_8h.html#a6769fdc7a8216aaf15033890f16e87c2" title="Read only the enumeration value w/o the tag and length. ">asnReadEnum</a>, <a class="el" href="akasn1_8h.html#a53c177496e97ef2e5687e7afdbd8f7e1" title="Write an enumeration value into an ASN.1 file. ">asnWriteEnum</a></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="enumdec_8c.html#a5764f68cafec1928196b3c5c9466479b" title="Decode an enumeration value. ">asnDecodeEnum</a>, <a class="el" href="enumrd_8c.html#a7a78cb998609746bee06218eca707ffb" title="Read only the enumeration value w/o the tag and length. ">asnReadEnum</a>, <a class="el" href="enumwr_8c.html#a726955f7bb2ef7ebb10ef2d7afcade96" title="Write an enumeration value into an ASN.1 file. ">asnWriteEnum</a></dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Restriction: The Integer has to be less than 2^31. </dd></dl>
 
-<p>References <a class="el" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c">asnEncodeLength()</a>, <a class="el" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#ad40fc0fcf445c9ed4fa8c9d55359a4a6">asnENUMERATED</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>, <a class="el" href="enumenc_8c.html#ac69a19cb21248fb74d2786c18f303d8d">FF_VALUE</a>, <a class="el" href="enumenc_8c.html#ab464045eca10d5a4a09a40e39f87ac07">IGNORE_VALUE</a>, and <a class="el" href="enumenc_8c.html#aff0fa3a7735ac0218d293d0ee2b8f12e">NULL_VALUE</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef">asnEncodeLength()</a>, <a class="el" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397">asnEncodeTag()</a>, <a class="el" href="akasn1_8h.html#ad40fc0fcf445c9ed4fa8c9d55359a4a6">asnENUMERATED</a>, <a class="el" href="akasn1_8h.html#a6a507509c96fbbbd20d61e62ab018c7f">asnPRIMITIVE</a>, <a class="el" href="akasn1_8h.html#afa072979c4ca21c914ad9ed1919454d8">asnUNIVERSAL</a>, <a class="el" href="enumenc_8c.html#ac69a19cb21248fb74d2786c18f303d8d">FF_VALUE</a>, <a class="el" href="enumenc_8c.html#ab464045eca10d5a4a09a40e39f87ac07">IGNORE_VALUE</a>, and <a class="el" href="enumenc_8c.html#aff0fa3a7735ac0218d293d0ee2b8f12e">NULL_VALUE</a>.</p>
 
-<p>Referenced by <a class="el" href="akasn1_8h.html#a53c177496e97ef2e5687e7afdbd8f7e1">asnWriteEnum()</a>.</p>
+<p>Referenced by <a class="el" href="enumwr_8c.html#a726955f7bb2ef7ebb10ef2d7afcade96">asnWriteEnum()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_cgraph.png" border="0" usemap="#enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_cgraph" alt=""/></div>
 <map name="enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_cgraph" id="enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_cgraph">
-<area shape="rect" id="node2" href="lenenc_8c.html#aed3104c8e807f991fe68e0e15321df2c" title="Encode a &quot;length&quot; field. " alt="" coords="177,5,307,32"/><area shape="rect" id="node3" href="tagenc_8c.html#a4a65e6593b9edda06a3905b41a3800f7" title="Encode an ASN.1 tag. " alt="" coords="186,56,298,83"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#adbdafa0820c876f5f20bfd8c7ffb56ef" title="Encode a &quot;length&quot; field. " alt="" coords="177,5,307,32"/><area shape="rect" id="node3" href="akasn1_8h.html#ad383d90701a1490387350b9930cc1397" title="Encode an ASN.1 tag. " alt="" coords="186,56,298,83"/></map>
 </div>
 </p>
 
@@ -211,7 +211,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_icgraph.png" border="0" usemap="#enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_icgraph" alt=""/></div>
 <map name="enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_icgraph" id="enumenc_8c_af94b5ea3923c266366e69d1c2adc053e_icgraph">
-<area shape="rect" id="node2" href="akasn1_8h.html#a53c177496e97ef2e5687e7afdbd8f7e1" title="Write an enumeration value into an ASN.1 file. " alt="" coords="177,5,287,32"/></map>
+<area shape="rect" id="node2" href="enumwr_8c.html#a726955f7bb2ef7ebb10ef2d7afcade96" title="Write an enumeration value into an ASN.1 file. " alt="" coords="177,5,287,32"/></map>
 </div>
 </p>
 
@@ -242,18 +242,18 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Encode an enumeration value as an integer with tag and length. </p>
-<p>Encode an enumeration (C-type long) with tag and length into a buffer. This function does the same as the function <a class="el" href="akasn1_8h.html#a3383a2ca9b48b42421d0bedebcc840d6">asnEncodeIntegerValue</a> except the encoding value of the tag. <code>buffer</code> is the buffer to fill with the resulting encoding, <code>value</code> is the enumeration value to encode.</p>
+<p>Encode an enumeration (C-type long) with tag and length into a buffer. This function does the same as the function <a class="el" href="intenc_8c.html#ae19876f2208780bdf05bb15510b7d257">asnEncodeIntegerValue</a> except the encoding value of the tag. <code>buffer</code> is the buffer to fill with the resulting encoding, <code>value</code> is the enumeration value to encode.</p>
 <dl class="section return"><dt>Returns</dt><dd>If an error occures, the function returns -1, or the length of the result in <code>buffer</code> otherwise.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="akasn1_8h.html#a3108a571a9ff7d33223c26cc582b56cb" title="Decode an enumeration value. ">asnDecodeEnum</a>, <a class="el" href="akasn1_8h.html#a6769fdc7a8216aaf15033890f16e87c2" title="Read only the enumeration value w/o the tag and length. ">asnReadEnum</a>, <a class="el" href="akasn1_8h.html#a53c177496e97ef2e5687e7afdbd8f7e1" title="Write an enumeration value into an ASN.1 file. ">asnWriteEnum</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="enumdec_8c.html#a5764f68cafec1928196b3c5c9466479b" title="Decode an enumeration value. ">asnDecodeEnum</a>, <a class="el" href="enumrd_8c.html#a7a78cb998609746bee06218eca707ffb" title="Read only the enumeration value w/o the tag and length. ">asnReadEnum</a>, <a class="el" href="enumwr_8c.html#a726955f7bb2ef7ebb10ef2d7afcade96" title="Write an enumeration value into an ASN.1 file. ">asnWriteEnum</a> </dd></dl>
 
-<p>References <a class="el" href="intenc_8c.html#ae19876f2208780bdf05bb15510b7d257">asnEncodeIntegerValue()</a>.</p>
+<p>References <a class="el" href="akasn1_8h.html#a3383a2ca9b48b42421d0bedebcc840d6">asnEncodeIntegerValue()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="enumenc_8c_a37c04c3635669a918fa64fc6621997b7_cgraph.png" border="0" usemap="#enumenc_8c_a37c04c3635669a918fa64fc6621997b7_cgraph" alt=""/></div>
 <map name="enumenc_8c_a37c04c3635669a918fa64fc6621997b7_cgraph" id="enumenc_8c_a37c04c3635669a918fa64fc6621997b7_cgraph">
-<area shape="rect" id="node2" href="intenc_8c.html#ae19876f2208780bdf05bb15510b7d257" title="Encode an integer value with tag (no length!) " alt="" coords="211,5,375,32"/></map>
+<area shape="rect" id="node2" href="akasn1_8h.html#a3383a2ca9b48b42421d0bedebcc840d6" title="Encode an integer value with tag (no length!) " alt="" coords="211,5,375,32"/></map>
 </div>
 </p>
 
